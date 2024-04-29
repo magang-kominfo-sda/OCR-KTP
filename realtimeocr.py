@@ -2,7 +2,7 @@ import cv2
 import easyocr
 
 # Inisialisasi EasyOCR
-reader = easyocr.Reader(['id'], gpu=True)  # Ganti 'en' dengan kode bahasa yang sesuai
+reader = easyocr.Reader(['id'], gpu=False)  # Ganti 'en' dengan kode bahasa yang sesuai
 
 # Inisialisasi video capture
 cap = cv2.VideoCapture(0)  # Gunakan 0 untuk kamera utama, bisa disesuaikan
